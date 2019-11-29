@@ -1,0 +1,18 @@
+﻿  ColaEspera.cpp
+  Comprar1.cpp
+  ComprarAsientos11.cpp
+  FuncionLlena.cpp
+  Inicio.cpp
+  Reservas1.cpp
+  SelecAsientos1.cpp
+  ValidarCedula.cpp
+  index.cpp
+c:\users\sergi\source\repos\cinemax\cinemax\index.cpp(12): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Generating Code...
+c:\users\sergi\source\repos\cinemax\cinemax\validarcedula.h(221): warning C4715: 'CineMax::ValidarCedula::validarCedula': not all control paths return a value
+c:\users\sergi\source\repos\cinemax\cinemax\validarcedula.h(221): warning C4715: 'CineMax::ValidarCedula::validarCedula': not all control paths return a value
+c:\users\sergi\source\repos\cinemax\cinemax\validarcedula.h(221): warning C4715: 'CineMax::ValidarCedula::validarCedula': not all control paths return a value
+c:\users\sergi\source\repos\cinemax\cinemax\validarcedula.h(221): warning C4715: 'CineMax::ValidarCedula::validarCedula': not all control paths return a value
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  Asiento.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CineMax.vcxproj -> C:\Users\sergi\source\repos\CineMax\Debug\CineMax.exe

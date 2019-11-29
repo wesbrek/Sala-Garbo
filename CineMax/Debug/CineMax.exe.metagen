@@ -1,0 +1,104 @@
+  CineMax.CantidadErronea.resources - Embedded, ContainedInManifestFile, 
+  CineMax.CedulaErronea.resources - Embedded, ContainedInManifestFile, 
+  CineMax.CedulaFallida.resources - Embedded, ContainedInManifestFile, 
+  CineMax.Comprar1.resources - Embedded, ContainedInManifestFile, 
+  CineMax.ComprarAsientos11.resources - Embedded, ContainedInManifestFile, 
+  CineMax.FuncionLlena.resources - Embedded, ContainedInManifestFile, 
+  CineMax.GeneracionBoleto.resources - Embedded, ContainedInManifestFile, 
+  CineMax.index.resources - Embedded, ContainedInManifestFile, 
+  CineMax.Inicio.resources - Embedded, ContainedInManifestFile, 
+  CineMax.Reservas1.resources - Embedded, ContainedInManifestFile, 
+  CineMax.SelecAsientos1.resources - Embedded, ContainedInManifestFile, 
+  CineMax.ValidarCedula.resources - Embedded, ContainedInManifestFile, 
+  CineMax.VerTotal.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CineMax, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CineMax.CantidadErronea: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+Class CineMax.CedulaErronea: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CineMax.CedulaFallida: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+Class CineMax.GeneracionBoleto: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Funcion*, Teatro*, System.String, System.Windows.Forms.Form, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String boletoCedula : Public
+    System.Windows.Forms.Form objs : Public
+Class CineMax.ComprarAsientos11: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Teatro*, Funcion*, Int32, System.Windows.Forms.Form, System.Windows.Forms.Form, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Teatro*, Funcion*, Int32, System.Windows.Forms.Form, System.Windows.Forms.Form, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+    System.Windows.Forms.Form inicio : Public
+Class CineMax.FuncionLlena: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Teatro*, Funcion*, Int32, System.Windows.Forms.Form, System.Windows.Forms.Form, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Teatro*, Funcion*, Int32, System.Windows.Forms.Form, System.Windows.Forms.Form, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+    System.Windows.Forms.Form inicio : Public
+    System.String cedula : Public
+Class CineMax.SelecAsientos1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Funcion*, Teatro*, System.Windows.Forms.Form, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Funcion*, Teatro*, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form objInicio : Public
+Class CineMax.Comprar1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, Teatro*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+Class CineMax.ValidarCedula: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Teatro*, System.Windows.Forms.Form, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form objs : Public
+    System.Windows.Forms.Form anterior : Public
+Class CineMax.Reservas1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, Teatro*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+Class CineMax.VerTotal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.Form, Teatro*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+Class CineMax.Inicio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CineMax.index: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
